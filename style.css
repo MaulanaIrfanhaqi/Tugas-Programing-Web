@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #3c3c3c; /* abu-abu sangat muda */
+  color: #ffffff;
+}
+
+/* Navbar  */
+header {
+  width: 100%;
+  background: #282828;
+  position: fixed; /* biar selalu di atas saat scroll */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px 20px;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #007bff;
+}
+
+
+.hero {
+  padding-top: 100px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;  /* biar setinggi layar penuh */
+  background: linear-gradient(135deg, #000, #333); /* gradient hitam abu-abu */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+.hero h1 span {
+  color: #ffdd57;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #ffdd57;
+  color: #333;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.about, .projects {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;      
+  border-radius: 50%;  
+  object-fit: cover;
+  padding: 10px;
+  background:linear-gradient(10deg,  #000, #555);
+ 
+}
+
+
+.project-card {
+  display: inline-block;
+  border: 0px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
